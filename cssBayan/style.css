@@ -16,12 +16,12 @@ body {
   
   .acardion {
       max-width: 46vw;
-    margin: 0 auto;
+    margin: 5em auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
-    margin-top: 5em;
+    
     color: #c0ff00;
     border: groove 1em red;
     border-radius: 2em;
