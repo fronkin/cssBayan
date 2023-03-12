@@ -30,6 +30,7 @@ body {
     color: rgb(211 28 197);
     transition: all 2s;
   }
+  
   .acardion_item {
     cursor: pointer;
     padding: 0 1em;
@@ -50,13 +51,18 @@ body {
   }
   .close_svg{
     transform: rotate(135deg);
-  
+  display: none;
   }
   .acardion_input:hover ~ * .close_svg {
     transform: rotate(90deg);
+    
   }
   .acardion_input:checked ~ * .close_svg {
     transform: rotate(90deg);
+   
+  }
+  .acardion:hover * .close_svg {
+   display: block;
   }
   .acardion_input {
     width: 0;
